@@ -2,7 +2,7 @@
   "name": "root",
   "private": false,
   "scripts": {
-    "_postinstall": "npx husky install && npm run bootstrap",
+    "postinstall": "npx husky install && npm run bootstrap",
     "prepublish": "pinst --disable",
     "postpublish": "pinst --enable",
     "bootstrap": "lerna bootstrap --no-ci",

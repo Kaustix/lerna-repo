@@ -13,6 +13,9 @@
     "build": "rollup -c",
     "test": "jest --colors"
   },
+  "dependencies": {
+    "@digitalsoap/utils": "^1.0.0"
+  },
   "devDependencies": {
     "jest": "^26.1.0",
     "rollup": "^2.22.2"
