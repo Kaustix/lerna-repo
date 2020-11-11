@@ -1,0 +1,20 @@
+{
+  "name": "@digitalsoap/flux",
+  "version": "1.0.0",
+  "description": "Flux Patterns and Utils",
+  "author": "Kiernan",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --colors"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "rollup": "^2.22.2"
+  }
+}

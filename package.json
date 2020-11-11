@@ -1,0 +1,58 @@
+{
+  "name": "root",
+  "private": false,
+  "scripts": {
+    "_postinstall": "npx husky install && npm run bootstrap",
+    "prepublish": "pinst --disable",
+    "postpublish": "pinst --enable",
+    "bootstrap": "lerna bootstrap --no-ci",
+    "publish": "lerna publish",
+    "publish:package": "lerna publish from-package --no-git-reset",
+    "build": "lerna run build --parallel",
+    "test": "lerna run test",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write --loglevel warn .",
+    "code:check": "npm run prettier && npm run lint",
+    "code:fix": "npm run prettier:fix && npm run lint:fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run code:fix"
+    }
+  },
+  "dependencies": {
+    "babel-jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.4",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "faker": "^4.1.0",
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "jest-junit": "^11.1.0",
+    "lerna": "^3.22.1",
+    "pinst": "^2.0.0",
+    "prettier": "2.0.5",
+    "rollup": "^2.23.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3"
+  }
+}

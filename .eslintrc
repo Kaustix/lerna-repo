@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["factory", "./tests/builders/factory"]],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    }
+  },
+  "ignorePatterns": ["node_modules", "coverage", "tests/builders/**/*", "dist"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
+  }
+}

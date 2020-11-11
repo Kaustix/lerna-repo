@@ -1,0 +1,22 @@
+{
+  "name": "@shared/utils",
+  "version": "1.0.0",
+  "description": "Utilities Library",
+  "author": "Kiernan",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --colors"
+  },
+  "devDependencies": {
+    "date-fns": "^2.15.0"
+  },
+  "peerDependencies": {
+    "date-fns": ">=2.15.0"
+  }
+}

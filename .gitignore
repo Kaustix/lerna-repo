@@ -1,0 +1,6 @@
+.idea
+coverage
+dist/
+*.log
+stats.json
+node_modules
