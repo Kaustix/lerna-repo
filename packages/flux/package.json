@@ -1,6 +1,6 @@
 {
   "name": "@digitalsoap/flux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flux Patterns and Utils",
   "author": "Kiernan",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "test": "jest --colors"
   },
   "dependencies": {
-    "@digitalsoap/utils": "^1.0.0"
+    "@digitalsoap/utils": "^1.0.1"
   },
   "devDependencies": {
     "jest": "^26.1.0",
