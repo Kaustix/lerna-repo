@@ -5,7 +5,7 @@
     "postinstall": "npx husky install && npm run bootstrap",
     "bootstrap": "lerna bootstrap --no-ci",
     "publish": "lerna publish",
-    "publish:package": "lerna publish from-package --no-git-reset",
+    "publish:package": "lerna publish from-package",
     "build": "lerna run build --parallel",
     "test": "lerna run test",
     "lint": "eslint . --ext .js",
