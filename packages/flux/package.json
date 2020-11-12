@@ -1,5 +1,5 @@
 {
-  "name": "digitalsoap-flux",
+  "name": "@digitalsoap/flux",
   "version": "1.0.1",
   "description": "Flux Patterns and Utils",
   "author": "Kiernan",
