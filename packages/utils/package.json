@@ -18,5 +18,6 @@
   },
   "peerDependencies": {
     "date-fns": ">=2.15.0"
-  }
+  },
+  "gitHead": "5afa334a831140ad0ee5ea188352c35e1846fc26"
 }
