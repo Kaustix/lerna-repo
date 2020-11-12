@@ -1,6 +1,6 @@
 {
   "name": "@digitalsoap/flux",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Flux Patterns and Utils",
   "author": "Kiernan",
   "license": "ISC",
@@ -23,5 +23,5 @@
     "jest": "^26.1.0",
     "rollup": "^2.22.2"
   },
-  "gitHead": "6c5cded364e3f43321438a7ca7783e22fb6240c9"
+  "gitHead": "76750d8f2040a12a7110ac7542059ad6600cde3b"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@digitalsoap/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utilities Library",
   "author": "Kiernan",
   "license": "ISC",
@@ -22,5 +22,5 @@
   "peerDependencies": {
     "date-fns": ">=2.15.0"
   },
-  "gitHead": "6c5cded364e3f43321438a7ca7783e22fb6240c9"
+  "gitHead": "76750d8f2040a12a7110ac7542059ad6600cde3b"
 }
