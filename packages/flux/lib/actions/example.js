@@ -1,5 +1,5 @@
 import { isArrayEmpty } from "@digitalsoap/utils";
 
-const examplefunc = isArrayEmpty([]);
+const examplefuncs = isArrayEmpty([]);
 
-export default examplefunc;
+export default examplefuncs;
