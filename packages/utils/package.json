@@ -9,6 +9,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "test": "jest --colors"
@@ -19,5 +22,5 @@
   "peerDependencies": {
     "date-fns": ">=2.15.0"
   },
-  "gitHead": "86543513b603b25bf07a854c53458931d626b257"
+  "gitHead": "e66a910da4616c559ba7be8d6eacf728969a126b"
 }
